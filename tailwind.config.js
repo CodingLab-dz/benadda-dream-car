@@ -17,6 +17,7 @@ module.exports = {
       },
     },
     screens: {
+      'ipadmini': '768px',
       'tablet': '883px',
       'mintablet': '800px',
       // => @media (min-width: 640px) { ... }

@@ -53,7 +53,7 @@ export const Footer = () => {
                                     </Link>
                                 </li>
                                 <li className='mb-3'>
-                                    <Link href={`https://api.whatsapp.com/send?phone=${phoneNumber}`} className='flex items-center align-middle'>
+                                    <Link href='https://wa.me/message/M35EHZUWKRZKG1' className='flex items-center align-middle'>
                                         <FaSquareWhatsapp className='mr-3' /> (+213) 792210397
                                     </Link>
                                 </li>

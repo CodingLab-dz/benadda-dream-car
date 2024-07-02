@@ -22,9 +22,10 @@ export const Header = () => {
         Aos.init()
     }, [])
     return (
-        <div className='w-full h-[70px] fixed z-50 top-0 border-b bg-[#F5F5F5]' data-aos="fade-down" data-aos-duration="1000">
+        <div>
+            <div className='w-full h-[70px] fixed z-50 top-0 border-b bg-[#F5F5F5]' data-aos="fade-down" data-aos-duration="1000">
             {/* nav */}
-            <div className='m-auto z-30 w-full h-full max-w-7xl flex flex-row justify-between items-center px-3 xl:px-0'>
+            <div className='mx-0 z-30 w-[390px] ipadmini:w-[750px] ipadmini:mx-0 mintablet:w-[800px] tablet:w-full tablet:mx-auto h-full max-w-7xl flex flex-row justify-between items-center px-3 xl:px-0'>
                 {/* logo */}
                 <div className='h-full flex items-center'>
                     <Image src={logo} alt='benadda dream car' width={100} height={60} />
@@ -43,13 +44,15 @@ export const Header = () => {
                     <Link href='https://www.instagram.com/benaddadreamcar?igsh=eW1qNmtsOXpreTVp'>
                         <FaSquareInstagram className='mr-3 text-[30px]' />
                     </Link>
-
+                    
+                    <Link href="https://wa.me/message/M35EHZUWKRZKG1">
                     <div className='w-fit h-fit px-3 py-1 flex border align-middle bg-black text-white'>
                         <RiWhatsappLine className='mr-3 text-[20px] items-center' />
                         (+213) 792210397
                     </div>
+                    </Link>
                 </div>
-                <div className='block tablet:hidden' onClick={() => setBurger(!burgur)}>
+                <div className='tablet:hidden' onClick={() => setBurger(!burgur)}>
                     <FaBars />
                 </div>
 
@@ -69,12 +72,15 @@ export const Header = () => {
                         <FaSquareFacebook className='mr-3 text-[20px]' />
                         <FaSquareInstagram className='mr-3 text-[20px]' />
                     </div>
-                    <div className='w-fit h-fit px-6 py-1 flex border bg-black text-white'>
+                    <Link href="https://wa.me/message/M35EHZUWKRZKG1">
+                    <div className='w-fit h-fit px-6 py-1 flex border align-middle bg-black text-white'>
                         <RiWhatsappLine className='mr-3 text-[20px] items-center' />
                         (+213) 792210397
                     </div>
+                    </Link>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

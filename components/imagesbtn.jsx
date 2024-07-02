@@ -44,13 +44,13 @@ export const Imagesbtn = ({ images }) => {
                     </div>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[425px] flex flex-col">
-                    <div className='w-[200px] mx-auto tablet:w-full'>
-                        <Carousel setApi={setApi} className="w-full max-w-xs mx-auto mt-3 ">
+                    <div className='w-[400px] m-auto tablet:w-full'>
+                        <Carousel setApi={setApi} className="w-full max-w-[400px] m-auto mt-3 ">
                             <CarouselContent>
                                 {images && images.map((img, index) => (
-                                    <CarouselItem key={index}>
-                                        <Card>
-                                            <CardContent className="flex aspect-square items-center justify-center p-6 bg-center bg-cover">
+                                    <CarouselItem key={index} className='flex aline-center item-center justify-center'>
+                                        <Card className='my-auto h-[300px] w-full'>
+                                            <CardContent className="flex mx-auto items-center w-fit h-full justify-center p-3 bg-center bg-cover my-auto">
                                                 <Image src={img.img} alt={img.alt} style={{ width: '100%', height: '100%' }} />
                                             </CardContent>
                                         </Card>

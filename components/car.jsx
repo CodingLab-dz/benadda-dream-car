@@ -29,7 +29,7 @@ export const Car = ({nom, energ, places, moteur, ports, gear, img}) => {
             <Card className='border p-3 w-[320px] shadow-xl hover:-translate-y-2 transition-all cursor-pointer'>
                 <CardContent className='flex flex-col w-full'>
                     {/* image */}
-                    <div className='w-full h-[150px] bg-center bg-cover'>
+                    <div className='w-full h-[200px] bg-center bg-cover'>
                         <Image src={img[0].img} alt={img[0].alt} style={{ width: '100%', height: '100%' }} />
                     </div>
                     <div className='flex flex-row justify-between items-start my-3'>

@@ -59,7 +59,6 @@ export const Cars = () => {
             imgs: [
                 {alt: "clio5-white", img: clio5w},
                 {alt: "clio5-white interior", img: cliointer},
-                {alt: "clio5-white", img: clio1},
                 {alt: "clio5-white", img: clio2},
                 {alt: "clio5-white", img: clio3}
                 
@@ -89,7 +88,7 @@ export const Cars = () => {
     }, [])
 
     return (
-        <div className='w-full h-fit bg-[#F5F5F5] my-12' id='nosvoitures' data-aos="fade-up" data-aos-duration="1500">
+        <div className='w-full h-fit my-12' id='nosvoitures' data-aos="fade-up" data-aos-duration="1500">
             <div className='w-full h-fit max-w-7xl mx-auto flex flex-col'>
                 <div className='w-full h-fit text-center mb-6'>
                     <h1 className='font-bold text-[20px] tablet:text-[50px]'>Nos voiture</h1>
