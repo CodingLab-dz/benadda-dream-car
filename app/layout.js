@@ -13,6 +13,8 @@ const fontSans = FontSans({
 export const metadata = {
   title: "Location de Voitures, Oran",
   description: "Parcourez l'Algérie avec style et confort grâce à Benadda Dream Car - Votre partenaire de location de voitures de confiance Embarquez pour un voyage inoubliable à travers l'Algérie avec Benadda Dream Car, votre guichet unique pour une location de voiture abordable, fiable et sans tracas. Que vous soyez un voyageur chevronné ou un visiteur pour la première fois, nous avons le véhicule idéal pour répondre à vos besoins et à votre budget.",
+  name:"google-site-verification",
+   content:"JD-pNmF4w2C1WrKwFEWWLQAFbGNrCLJyd_b3tz8xs68",
 };
 
 export default function RootLayout({ children }) {
