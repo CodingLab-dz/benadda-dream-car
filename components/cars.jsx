@@ -36,7 +36,7 @@ export const Cars = () => {
             marque: "fiat",
             ports: "3",
             energ: "Essence",
-            gear: '5-auto',
+            gear: '5-manuelle',
             moteur: "Hybrid",
             places: "5",
             imgs: [
@@ -53,7 +53,7 @@ export const Cars = () => {
             marque: "Renault",
             ports: "5",
             energ: "Essence",
-            gear: '5-auto',
+            gear: '5-manuelle',
             moteur: "Hybrid",
             places: "5",
             imgs: [

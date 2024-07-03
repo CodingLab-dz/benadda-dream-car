@@ -35,10 +35,10 @@ export const Car = ({nom, energ, places, moteur, ports, gear, img}) => {
                     <div className='flex flex-row justify-between items-start my-3'>
                         <div className='flex flex-col'>
                             <h2 className='text-[20px] '>{nom}</h2>
-                            <h4 className='font-light text-[15px]'>Or semilar</h4>
+                            <h4 className='font-light text-[15px]'>Ou Similaire</h4>
                         </div>
                         <div className='text-red-600'>
-                            <h2>{energ}</h2>
+                            <h2></h2>
                         </div>
                     </div>
                     {/* chaise & moteur */}
@@ -49,7 +49,7 @@ export const Car = ({nom, energ, places, moteur, ports, gear, img}) => {
                         </div>
                         <div className='flex items-center justify-start'>
                             <PiEngineFill className='text-[20px] text-red-600' />
-                            <span className='text-[15px] ml-3'>{moteur}</span>
+                            <span className='text-[15px] ml-3'>{energ}</span>
                         </div>
                     </div>
                     {/* ports & boits */}
