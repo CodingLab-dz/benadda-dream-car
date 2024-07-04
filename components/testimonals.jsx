@@ -41,7 +41,7 @@ export const Testimonals = () => {
         Aos.init()
     }, [])
     return (
-        <div className='w-full h-fit flex flex-col mt-[90px]' data-aos="fade-up" data-aos-duration="1500"  data-aos-anchor-placement="top-bottom">
+        <div className='w-full h-fit flex flex-col ' data-aos="fade-up" data-aos-duration="1500"  data-aos-anchor-placement="top-bottom">
             <div className='w-full max-w-7xl mx-auto text-center'>
                 <h1 className='font-bold text-[30px] tablet:text-[50px] mb-6'>Avis des clients</h1>
             </div>

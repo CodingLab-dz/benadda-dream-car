@@ -1,4 +1,5 @@
 import { Inter as FontSans } from "next/font/google";
+// import {Kdam_Thmor_Pro as FontSans } from "next/font/google"
 import "./globals.css";
 import { Header } from "@/components/header";
 import { cn } from "@/lib/utils";
