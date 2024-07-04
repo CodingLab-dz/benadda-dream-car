@@ -77,7 +77,7 @@ export const Contact = () => {
                         <ul className=''>
                             <li className='mb-3 flex items-center'>
                                 <Link href="https://maps.app.goo.gl/TE3kWHsBY8sK8rmLA" target="_blank" className='flex items-center'>
-                                    <FaLocationDot className='mr-3 text-[20px] mintablet:text-[30px] ' /><p>BATIOR Cite Elmostakbal AKID LOTFI-ORAN </p>
+                                    <FaLocationDot className='mr-3 text-[20px] mintablet:text-[30px] ' /><p>BATIOR Cite Elmostakbal AKID LOTFI-ORAN, ALGERIE </p>
                                 </Link>
                             </li>
                             <Link href="https://wa.me/message/M35EHZUWKRZKG1">

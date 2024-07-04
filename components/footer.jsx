@@ -49,7 +49,7 @@ export const Footer = () => {
                                 </li>
                                 <li className='mb-3'>
                                     <Link href="" className='flex items-center align-middle'>
-                                        <FaLocationDot className='mr-3' /> Akid lotfi, Bir el djir, Oran, Algerie
+                                        <FaLocationDot className='mr-3' /> BATIOR Cite Elmostakbal AKID LOTFI-ORAN, ALGERIE
                                     </Link>
                                 </li>
                                 <li className='mb-3'>
