@@ -25,11 +25,11 @@ export const Header = () => {
         <div>
             <div className='w-full h-[70px] fixed z-50 top-0 border-b bg-[#F5F5F5]' data-aos="fade-down" data-aos-duration="1000">
                 {/* nav */}
-                <div className='mx-0 z-30 w-[390px] ipadmini:w-[750px] ipadmini:mx-0 mintablet:w-[800px] tablet:w-full tablet:mx-auto h-full max-w-7xl flex flex-row mintablet:justify-between items-center px-3 xl:px-0'>
+                <div className='mx-0 z-30 w-[390px] justify-center ipadmini:w-[750px] ipadmini:mx-0 mintablet:w-[800px] tablet:w-full tablet:mx-auto h-full max-w-7xl flex flex-row mintablet:justify-center items-center px-3 xl:px-0'>
                     {/* logo */}
-                    <div className='h-full flex items-center mr-6'>
+                    {/* <div className='h-full flex items-center mr-6'>
                         <Image src={logo} alt='benadda dream car' width={70} height={50} />
-                    </div>
+                    </div> */}
                     {/* links */}
                     {/* <div className='hidden tablet:flex'>
                     {links.map((link, k) => (

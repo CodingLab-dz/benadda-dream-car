@@ -58,12 +58,12 @@ export const Contact = () => {
                         <ul className=''>
                             <li className='mb-3 flex items-center'>
                                 <Link href='https://www.facebook.com/profile.php?id=61560495572393&mibextid=ZbWKwL' className='flex items-center'>
-                                    <FaSquareFacebook className='mr-3 text-[30px] ' /><p>Benadda DREAM CAR </p>
+                                    <FaSquareFacebook className='mr-3 text-[30px] ' /><p>Contacter Nous </p>
                                 </Link>
                             </li>
                             <li className='mb-3 flex items-center'>
                                 <Link href='https://www.facebook.com/profile.php?id=61560495572393&mibextid=ZbWKwL' className='flex items-center'>
-                                    <FaSquareInstagram className='mr-3 text-[20px] mintablet:text-[30px] ' /><p>benaddadreamcar </p>
+                                    <FaSquareInstagram className='mr-3 text-[20px] mintablet:text-[30px] ' /><p>Contacter Nous </p>
                                 </Link>
                             </li>
                             <li className='mb-3 flex items-center'>

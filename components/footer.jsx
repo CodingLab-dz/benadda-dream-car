@@ -7,15 +7,15 @@ import { FaSquareInstagram, FaSquareFacebook, FaSquareWhatsapp, FaLocationDot } 
 export const Footer = () => {
     const phoneNumber = '+213696647876';
     return (
-        <div className='w-full h-fit min-h-[200px] bg-black mt-24'>
+        <div className='w-full h-fit min-h-[200px] bg-black mt-24 pt-6'>
             <div className='w-full max-w-7xl mx-auto h-fit text-white px-3 laptop:px-0 pb-3 laptop:pb-0'>
-                <div className='w-full h-fit m-auto flex flex-col tablet:flex-row tablet:justify-between gap-10'>
+                <div className='w-full h-fit m-auto flex flex-col tablet:flex-row tablet:justify-center gap-5'>
                     {/* logo */}
-                    <div className='w-[300px] mx-auto h-full my-auto'>
+                    {/* <div className='w-[300px] mx-auto h-full my-auto'>
                         <div className='w-fit h-fit m-auto'>
                             <Image src={logo} alt='logo' width={200} height={200} />
                         </div>
-                    </div>
+                    </div> */}
                     <div className='flex gap-4'>
 
                         {/* links */}
@@ -39,12 +39,12 @@ export const Footer = () => {
                             <ul>
                                 <li className='mb-3'>
                                     <Link href="https://www.facebook.com/profile.php?id=61560495572393&mibextid=ZbWKwL" className='flex items-center align-middle'>
-                                        <FaSquareFacebook className='mr-3' /> benadda-dreamcar
+                                        <FaSquareFacebook className='mr-3' /> Contacter Nous
                                     </Link>
                                 </li>
                                 <li className='mb-3'>
                                     <Link href="https://www.instagram.com/benaddadreamcar?igsh=eW1qNmtsOXpreTVp" className='flex items-center align-middle'>
-                                        <FaSquareInstagram className='mr-3' /> benadda-dreamcare
+                                        <FaSquareInstagram className='mr-3' /> Contacter Nous
                                     </Link>
                                 </li>
                                 <li className='mb-3'>
